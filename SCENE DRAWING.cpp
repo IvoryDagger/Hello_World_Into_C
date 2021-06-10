@@ -1,0 +1,73 @@
+#include "splashkit.h"
+
+int main()
+{
+    open_window("Scene Drawing", 1000, 800);
+    load_font("The Origin", "Arial.ttf" );
+    load_bitmap("The Origin", "Scene 3.png");
+    load_sound_effect("play", "WhatsApp Audio 2020-03-04 at 6.58.04 PM (1).wav");
+    clear_screen(COLOR_BLACK);
+    draw_text("THE ORIGIN OF OLYMPICS", COLOR_GHOST_WHITE, 400, 60);
+    draw_bitmap("The Origin", 0, 100);
+    play_sound_effect("WhatsApp Audio 2020-03-04 at 6.58.04 PM (1).wav");
+    refresh_screen();
+    delay(4000);
+    load_font("The Scene", "Arial.ttf" );
+    load_bitmap("The Scene", "Scene 2.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("THE BIRTH OF AN ANCIENT ERA", COLOR_GHOST_WHITE, 380, 60);
+    draw_bitmap("The Scene", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The Test", "Arial.ttf" );
+    load_bitmap("The Test", "Scene 4.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("THE JOURNEY TO TEST...", COLOR_GHOST_WHITE, 380, 60);
+    draw_bitmap("The Test", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The Strength", "Arial.ttf" );
+    load_bitmap("The Strength", "Scene 1.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("STRENGTH...", COLOR_GHOST_WHITE, 450, 60);
+    draw_bitmap("The Strength", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The Wisdom", "Arial.ttf" );
+    load_bitmap("The Wisdom", "Scene 5.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("WISDOM...", COLOR_GHOST_WHITE, 450, 60);
+    draw_bitmap("The Wisdom", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The Sportsmanship", "Arial.ttf" );
+    load_bitmap("The Sportsmanship", "Scene 6.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("SPORTSMANSHIP...", COLOR_GHOST_WHITE, 450, 60);
+    draw_bitmap("The Sportsmanship", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The Victory", "Arial.ttf" );
+    load_bitmap("The Victory", "Scene 7.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("TO EMERGE VICTORIOUS", COLOR_GHOST_WHITE, 400, 60);
+    draw_bitmap("The Victory", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The END 1", "Arial.ttf" );
+    load_bitmap("The END 1", "Scene 8.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("SUMMON YOUR INNER HEROES", COLOR_GHOST_WHITE, 380, 60);
+    draw_bitmap("The END 1", 0, 100);
+    refresh_screen();
+    delay(4000);
+    load_font("The END 2", "Arial.ttf" );
+    load_bitmap("The END 2", "Scene 9.png");
+    clear_screen(COLOR_BLACK);
+    draw_text("TO START YOUR OWN ERA!", COLOR_GHOST_WHITE, 380, 60);
+    draw_bitmap("The END 2", 0, 100);
+    refresh_screen();
+    delay(6000);
+
+    return 0;
+}
